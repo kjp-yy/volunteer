@@ -1,2 +1,49 @@
-<!--pages/index1/index1.wxml-->
-<text>pages/index1/index1.wxml</text>
+<view class="body">
+	<view class="container" id="wrap">
+		<view class="page-body">
+			<view class="page-section page-section-spacing swiper">
+				<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+					<block wx:for="{{background}}" wx:key="index">
+						<swiper-item>
+							<image class="page-body-img" src="{{item}}"></image>
+						</swiper-item>
+					</block>
+				</swiper>
+			</view>
+		</view>
+	</view>
+	<!-- nav -->
+	<view class="nav">
+		<view class="nav_list">
+			<view class="nav_list1">
+				<image src="../img/personal.png"></image>
+			</view>
+			<text>参与活动</text>
+		</view>
+		<view class="nav_list">
+			<view class="nav_list2">
+				<image src="../img/personal.png"></image>
+			</view>
+			<text>活动招募</text>
+		</view>
+		<view class="nav_list">
+			<view class="nav_list3">
+				<image src="../img/a_zcfg.png"></image>
+			</view>
+			<text>政策法规</text>
+		</view>
+	</view>
+  <!-- main部分 -->
+  <view class="main">
+    <view class="header">
+      <view class="header_left">
+        <image src="../img/jr.png"></image>
+        <text>参与活动</text>
+      </view>
+      <view class="header_right">
+        <text>查看更多</text>
+        <image src="../img/right.png"></image>
+      </view>
+    </view>
+  </view>
+</view>

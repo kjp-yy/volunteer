@@ -1,18 +1,26 @@
 // pages/index1/index1.js
+let res=require('../api.js')
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    // 轮播图
+    background: ['../img/1.jpg', '../img/2.jpg', '../img/3.jpg'],
+    indicatorDots: true,
+    vertical: false,
+    autoplay: true,
+    interval: 2000,
+    duration: 500,
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    // res.SEND('volunteer/activityList','GET',{},(res)=>{
+    //   // console.log(res)
+    // })
   },
 
   /**
