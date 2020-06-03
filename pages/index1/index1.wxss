@@ -116,8 +116,59 @@
   color: #b6bac1;
   line-height: 93rpx;
 }
-
 .header_right>image {
   width: 30rpx;
   height: 30rpx;
+}
+/* 参加活动main */
+.activity_main {
+  padding: 10rpx 35rpx;
+  
+}
+.activity_main_list {
+  height: 300rpx;
+  background-color: #fff;
+  display: flex;
+  padding-left: 30rpx;
+  align-items: center;
+  border-radius: 44rpx;
+  position: relative;
+  margin-bottom: 35rpx;
+}
+.main_i_left {
+  padding-right: 25rpx;
+}
+.main_i_left > image {
+  width: 170rpx;
+height: 170rpx;
+  border-radius: 20rpx;
+}
+.main_i_right {
+  width: 380rpx;
+height: 200rpx;
+font-size: 14px;
+}
+.main_i_right > view {
+  font-size: 28rpx;
+  line-height: 43rpx;
+}
+.main_i_right :first-child{
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+.look {
+  position: absolute;
+  width: 148rpx;
+  background-color: #fff;
+  text-align: center;
+  font-size: 30rpx;
+  color: #f54752;
+  border-radius: 50rpx;
+  top: 179rpx;
+  right: 50rpx;
+  border: 1rpx solid #f54752;
+}
+.look:hover {
+  color: #fff;
+  background-color: #f54752;
 }

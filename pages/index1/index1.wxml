@@ -33,17 +33,94 @@
 			<text>政策法规</text>
 		</view>
 	</view>
-  <!-- main部分 -->
+	<!-- main部分 -->
+	<view class="main">
+		<view class="header">
+			<view class="header_left">
+				<image src="../../images/k_1/jr.png"></image>
+				<text>参与活动</text>
+			</view>
+			<view class="header_right">
+				<text>查看更多</text>
+				<image src="../../images/k_1/right.png"></image>
+			</view>
+		</view>
+	</view>
+	<!-- 参加活动main -->
+	<view class="activity_main">
+		<view class="activity_main_list">
+			<view class="main_i_left">
+				<image src="../../images/k_1/fabu.png"></image>
+			</view>
+			<view class="main_i_right">
+				<view>为灾区人民募资捐款</view>
+				<view>地点：某某广场</view>
+				<view>时间：2019年2月3日</view>
+				<view>组织者：志愿者协会</view>
+			</view>
+			<view class="look">
+				<text>查看</text>
+			</view>
+		</view>
+		<!-- --------------- -->
+		<view class="activity_main_list">
+			<view class="main_i_left">
+				<image src="../../images/k_1/fabu.png"></image>
+			</view>
+			<view class="main_i_right">
+				<view>为灾区人民募资捐款</view>
+				<view>地点：某某广场</view>
+				<view>时间：2019年2月3日</view>
+				<view>组织者：志愿者协会</view>
+			</view>
+			<view class="look">
+				<text>查看</text>
+			</view>
+		</view>
+	</view>
+	<!-- 活动招募 -->
   <view class="main">
-    <view class="header">
-      <view class="header_left">
-        <image src="../../images/k_1/jr.png"></image>
-        <text>参与活动</text>
-      </view>
-      <view class="header_right">
-        <text>查看更多</text>
-        <image src="../../images/k_1/right.png"></image>
-      </view>
-    </view>
-  </view>
+		<view class="header">
+			<view class="header_left">
+				<image src="../../images/k_1/jr.png"></image>
+				<text>活动招募</text>
+			</view>
+			<view class="header_right">
+				<text>查看更多</text>
+				<image src="../../images/k_1/right.png"></image>
+			</view>
+		</view>
+	</view>
+	<!-- 活动招募main -->
+	<view class="activity_main">
+		<view class="activity_main_list">
+			<view class="main_i_left">
+				<image src="../../images/k_1/fabu.png"></image>
+			</view>
+			<view class="main_i_right">
+				<view>为灾区人民募资捐款</view>
+				<view>地点：某某广场</view>
+				<view>时间：2019年2月3日</view>
+				<view>组织者：志愿者协会</view>
+			</view>
+			<view class="look">
+				<text>查看</text>
+			</view>
+		</view>
+		<!-- --------------- -->
+		<view class="activity_main_list">
+			<view class="main_i_left">
+				<image src="../../images/k_1/fabu.png"></image>
+			</view>
+			<view class="main_i_right">
+				<view>为灾区人民募资捐款</view>
+				<view>地点：某某广场</view>
+				<view>时间：2019年2月3日</view>
+				<view>组织者：志愿者协会</view>
+			</view>
+			<view class="look">
+				<text>查看</text>
+			</view>
+		</view>
+	</view>
 </view>
