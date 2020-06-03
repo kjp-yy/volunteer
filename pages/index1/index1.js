@@ -7,7 +7,7 @@ Page({
    */
   data: {
     // 轮播图
-    background: ['../img/1.jpg', '../img/2.jpg', '../img/3.jpg'],
+    background: ['../../images/k_1/1.jpg', '../../images/k_1/2.jpg', '../../images/k_1/3.jpg'],
     indicatorDots: true,
     vertical: false,
     autoplay: true,

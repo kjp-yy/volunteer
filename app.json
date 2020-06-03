@@ -17,20 +17,20 @@
       {
       "pagePath": "pages/index1/index1",
       "text": "首页",
-      "iconPath": "./images/sy.png",
-      "selectedIconPath": "./images/sy-1.png"
+      "iconPath": "./images/m_1/sy.png",
+      "selectedIconPath": "./images/m_1/sy-1.png"
     },
       {
       "pagePath": "pages/activity/activity",
       "text": "活动",
-      "iconPath": "./images/hd.png",
-      "selectedIconPath": "./images/hd-1.png"
+      "iconPath": "./images/m_1/hd.png",
+      "selectedIconPath": "./images/m_1/hd-1.png"
     },
     {
       "pagePath":"pages/personal/personal",
       "text":"个人中心",
-      "iconPath": "./images/geren.png",
-      "selectedIconPath": "./images/geren-1.png"
+      "iconPath": "./images/m_1/geren.png",
+      "selectedIconPath": "./images/m_1/geren-1.png"
     }
   ]
   },
