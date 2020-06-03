@@ -1,0 +1,106 @@
+/* pages/identity/identity.wxss *//* pages/personal/personal.wxss */
+.box {
+  width: 100%;
+  background: -webkit-linear-gradient(top, #f3aaac, #fef8f9, #ffffff);
+}
+
+/* 您身份是？ */
+.identity {
+  width: 100%;
+  text-align: center;
+  line-height: 700rpx;
+  color: #db2e2f;
+  height: 550rpx;
+}
+
+.text-identity {
+  font-size: 60rpx;
+  font-weight: 800;
+}
+
+/* 中间部份 */
+.centent {
+  width: 100%;
+  height: 695rpx;
+   overflow: hidden;
+}
+
+/* 我是客户 */
+.customer {
+  width: 500rpx;
+  height: 100rpx;
+  background-color: #eceef1;
+  margin: 0 auto;
+  border-radius: 90rpx;
+  border: 1rpx solid #d0d0d1;
+  text-align: center;
+  line-height: 100rpx;
+  letter-spacing:8px;
+  color:#bf9fa2;
+}
+
+.customer-img {
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 60rpx;
+  float: left;
+}
+
+/* 志愿者们 */
+.volunteers {
+  width: 500rpx;
+  height: 100rpx;
+  background-color: #eceef1;
+  margin: 0 auto;
+  margin-top: 60rpx;
+  border-radius: 90rpx;
+  border: 1rpx solid #d0d0d1;
+  text-align: center;
+  line-height: 100rpx;
+  letter-spacing:10rpx;
+  color:#bf9fa2;
+  
+}
+
+.volunteers-img {
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 60rpx;
+  float: left;
+}
+
+/* 社团团长 */
+.headofAssociation {
+  width: 500rpx;
+  height: 100rpx;
+  background-color: #eceef1;
+  margin: 0 auto;
+  margin-top: 60rpx;
+  border-radius: 90rpx;
+  border: 1rpx solid #d0d0d1;
+  text-align: center;
+  line-height: 100rpx;
+  letter-spacing:10rpx;
+  color:#bf9fa2;
+}
+
+.headofAssociation-img {
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 60rpx;
+  float: left;
+}
+
+/* 底部 */
+ .bottom {
+  width: 100%;
+  position: fixed;
+  bottom: 0rpx;
+}
+ 
+.bottom-1 {
+   background-color: #f04a56;
+   text-align: center;
+   line-height: 90rpx;
+   color: #ffffff;
+}
