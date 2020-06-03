@@ -1,6 +1,9 @@
 {
   "pages":[
+    "pages/index1/index1",
     "pages/index/index",
+    "pages/activity/activity",
+    "pages/personal/personal",
     "pages/logs/logs"
   ],
   "window":{
@@ -8,6 +11,27 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index1/index1",
+      "text": "首页"
+    },
+      {
+      "pagePath": "pages/activity/activity",
+      "text": "活动"
+    },
+    {
+      "pagePath":"pages/personal/personal",
+      "text":"个人中心"
+    }
+  ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
