@@ -1,12 +1,3 @@
-<!--pages/personal/personal.wxml-->
-<view class="box">
-	<view class="identity">
-		<text class="text-identity">您的身份是？</text>
-	</view>
-   <view class="centent">
-	    <view class="customer">
-			</view>
-			<view class="volunteers"></view>
-			<view class="headofAssociation"></view>
-  </view>
-</view>
+<navigator url="../identity/identity">选择页面</navigator>
+<navigator url="../personaldata/personaldata">客户注册</navigator>
+<navigator url="../communityrelease1/communityrelease1">社团团长发布1</navigator>

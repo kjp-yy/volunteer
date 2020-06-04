@@ -6,6 +6,9 @@
     "pages/activity/activity",
     "pages/activity_consultation/activity_consultation",
     "pages/personal/personal",
+    "pages/identity/identity",
+    "pages/personaldata/personaldata",
+    "pages/communityrelease1/communityrelease1",
     "pages/logs/logs"
   ],
   "window":{

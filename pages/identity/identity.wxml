@@ -1,0 +1,24 @@
+<view class="box">
+	<view class="identity">
+		<text class="text-identity">您的身份是？</text>
+	</view>
+	<view class="centent">
+		<view class="customer">
+			<image src="../../images/m_1/kehu.png" class="customer-img"></image>
+			<text class="text-customer">我是客户</text>
+		</view>
+		<view class="volunteers">
+			<image src="../../images/m_1/zhiyuanzhe.png" class="volunteers-img"></image>
+			<text class="text-volunteers">志愿者们</text>
+		</view>
+		<view class="headofAssociation">
+			<image src="../../images/m_1/shetuan.png" class="headofAssociation-img"></image>
+			<text class="text-headofAssociation">社团团长</text>
+		</view>
+	</view>
+			<view class="bottom">
+			<view class="bottom-1">
+				<text class="text-bottom">提交</text>
+			</view>
+		</view>
+</view>
