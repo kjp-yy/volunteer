@@ -1,0 +1,9 @@
+<!--pages/regulations/regulations.wxml-->
+ <view class="box">
+  <view class="tupian">
+   <image src="../../images/m_1/zcfg1.png" class="tupian-img"></image>
+  </view>
+  <view class="buttom">
+   <text class="text-buttom">已阅读</text>
+  </view>
+</view>

@@ -1,4 +1,4 @@
-// pages/communityrelease1/communityrelease1.js
+// pages/logx/logx.js
 Page({
 
   /**

@@ -1,0 +1,13 @@
+/* pages/regulations/regulations.wxss */
+.box {
+  width: 100%;
+  height: 100%;
+}
+.tupian {
+  width: 100%;
+  height: 1200rpx;
+}
+.tupian-img {
+  width: 100%;
+  height: 100%;
+}

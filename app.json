@@ -9,8 +9,9 @@
     "pages/personal/personal",
     "pages/identity/identity",
     "pages/personaldata/personaldata",
-    "pages/communityrelease1/communityrelease1",
-    "pages/logs/logs"
+    "pages/regulations/regulations",
+    "pages/logs/logs",
+    "pages/logx/logx"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -35,6 +36,12 @@
     {
       "pagePath":"pages/personal/personal",
       "text":"个人中心",
+      "iconPath": "./images/m_1/geren.png",
+      "selectedIconPath": "./images/m_1/geren-1.png"
+    },
+    {
+      "pagePath":"pages/logx/logx",
+      "text":"个人",
       "iconPath": "./images/m_1/geren.png",
       "selectedIconPath": "./images/m_1/geren-1.png"
     }

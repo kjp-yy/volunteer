@@ -1,0 +1,170 @@
+.box {
+  position: relative;
+}
+.headerr-image {
+  width: 100%;
+}
+.touxiang {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 35rpx;
+  left: 270rpx;
+}
+.touxiang-image {
+  width: 200rpx;
+  height:200rpx ;
+  border-radius: 50%;
+}
+.wdhd {
+  margin-left:60rpx
+  ;
+}
+.tu {
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.tu-1 {
+  width: 160rpx;
+  height: 180rpx;
+  text-align: center;
+
+}
+.tu-image {
+  width: 70rpx;
+  height: 80rpx;
+  display: flex;
+ 
+  margin: 0 auto;
+}
+.text-tu-1 {
+  font-size: 30rpx;
+}
+.buttomm-1 {
+  line-height: 100rpx;
+  height: 100rpx;
+  border-top: 1rpx solid #efeff0 ;
+}
+.buttomm-2 {
+  line-height: 100rpx;
+  height: 100rpx;
+  border-top: 10rpx solid #efeff0 ;
+}
+.text-1 {
+  margin-left: 60rpx;
+  font-size: 32rpx;
+}
+.text-2 {
+  margin-left: 450rpx;
+}
+.text-3 {
+  margin-left: 60rpx;
+}
+/* .box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  height: 600rpx;
+}
+
+.header-1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.touxiang {
+  border-radius: 50%;
+  width: 200rpx;
+  height: 200rpx;
+  position: absolute;
+  top: 50rpx;
+  left: 275rpx;
+}
+
+.touxiang-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* 活动 
+ .center {
+  width: 100%;
+}
+
+.huodong {
+  width: 100%;
+}
+
+.huodong-1 {
+  margin-left: 60rpx;
+}
+
+.huodong-tu {
+  width: 100%;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1rpx solid #efefef;
+}
+
+.tu-1 {
+  width: 90rpx;
+  height: 130rpx;
+  text-align: center;
+}
+
+.text-baoming {
+  height: 100rpx;
+  font-size: 25rpx;
+}
+
+.baoming {
+  width: 80rpx;
+  height: 70rpx;
+}
+/* 底部 
+.buttom {
+  width: 100%;
+  position: absolute;
+  top: 800rpx;
+  margin-bottom: 10rpx;
+}
+.buttom-1 {
+ border-bottom: solid 1rpx #efefef;
+ height: 100rpx;
+ font-size: 35rpx;
+ line-height: 80rpx;
+}
+.text-left {
+  margin-left: 60rpx;
+}
+.text-right {
+  margin-left: 470rpx;
+}
+.buttom-2 {
+  border-top: solid 10rpx #efefef;
+  height: 100rpx;
+  font-size: 35rpx;
+  line-height: 80rpx;
+ }
+ .buttom-3 {
+  border-top: solid 1rpx #efefef;
+  border-bottom: solid 1rpx #efefef;
+  height: 100rpx;
+  font-size: 35rpx;
+  line-height: 80rpx;
+ }
+ .texxt {
+   margin-left: 50rpx;
+ }  
+ 
+ 
