@@ -40,7 +40,7 @@
 				<image src="../../images/k_1/jr.png"></image>
 				<text>参与活动</text>
 			</view>
-			<view class="header_right">
+			<view class="header_right" bindtap="click">
 				<text>查看更多</text>
 				<image src="../../images/k_1/right.png"></image>
 			</view>

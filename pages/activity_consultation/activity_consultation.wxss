@@ -1,0 +1,69 @@
+.activity_consultation {
+  background-color: #F4F6FA;
+  padding: 40rpx;
+}
+.ac_main {
+  background-color: #fff;
+  padding: 30rpx;
+  box-shadow: 0 0rpx 50rpx -35rpx #767676;
+  border-radius: 20rpx;
+  margin: 40rpx 0;
+}
+
+.ac_main_top {
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+
+}
+
+.ac_main_top_img {}
+
+.ac_main_top_img>image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+
+.ac_main_top_view {
+  width: 300rpx;
+  padding-left: 40rpx;
+  box-sizing: border-box;
+}
+
+.ac_main_top_view :first-child {
+  font-size: 35rpx;
+  font-weight: 300;
+  margin-bottom: 5rpx;
+}
+
+.ac_main_top_view :nth-child(2) {
+  font-size: 30rpx;
+  color: #999999;
+}
+
+.ac_main_center {}
+
+.ac_main_center_one {
+  font-size: 26rpx;
+  color: #666666;
+  line-height: 35rpx;
+}
+
+.ac_main_center :nth-child(2) {
+  font-size: 26rpx;
+  color: #999999;
+  padding-top: 17rpx;
+}
+
+.ac_main_bottom {
+  display: flex;
+  justify-content: center;
+  padding-top: 20rpx;
+  box-sizing: border-box;
+}
+
+.ac_main_bottom>image {
+  width: 220rpx;
+  height: 60rpx;
+}
