@@ -20,7 +20,7 @@
 			</view>
 			<text>参与活动</text>
 		</view>
-		<view class="nav_list">
+		<view class="nav_list" bindtap="h_jump">
 			<view class="nav_list2">
 				<image src="../../images/k_1/a_zcfg.png"></image>
 			</view>

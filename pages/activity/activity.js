@@ -1,66 +1,32 @@
-// pages/activity/activity.js
+let res=require("../api.js")
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    id:0,
+    datalist:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    // 初始化活动中心页面
+    this.Auto(0)
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  now_join(e){
+      let id=e.currentTarget.dataset.id
+      this.Auto(id)
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  // 封装活动中心默认显示的数据
+  Auto(n){
+    let id=n
+    res.SEND('website/huodongList','GET',{status:id},res=>{
+      this.setData({
+        datalist: res.data.data.list
+      })
+    })
   }
 })

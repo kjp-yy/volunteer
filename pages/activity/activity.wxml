@@ -6,50 +6,22 @@
 	<!-- 正在参与 -->
 	<view class="now_join">
 		<view class="now_join_head">
-			<text>正在参与</text>
-			<text>过往活动</text>
+			<text bindtap="now_join" data-id="0">正在参与</text>
+			<text bindtap="now_join" data-id="1">过往活动</text>
 		</view>
 		<view class="now_join_main">
 			<view class="now_join_main_img">
 				<image src="../../images/k_1/tiao.png"></image>
 			</view>
 			<view>
-				<view class="activity_main_list">
+				<view class="activity_main_list" wx:for="{{datalist}}" wx:key="index">
 					<view class="main_i_left">
-						<image src="../../images/k_1/fabu.png"></image>
+						<image src="https://cishan.xabcx.cn{{item.imgList[0]}}"></image>
 					</view>
 					<view class="main_i_right">
-						<view>为灾区人民募资捐款</view>
-						<view>地点：某某广场</view>
-						<view>时间：2019年2月3日</view>
-						<view>组织者：志愿者协会</view>
-					</view>
-					<view class="look">
-						<text>查看</text>
-					</view>
-				</view>
-				<view class="activity_main_list">
-					<view class="main_i_left">
-						<image src="../../images/k_1/fabu.png"></image>
-					</view>
-					<view class="main_i_right">
-						<view>为灾区人民募资捐款</view>
-						<view>地点：某某广场</view>
-						<view>时间：2019年2月3日</view>
-						<view>组织者：志愿者协会</view>
-					</view>
-					<view class="look">
-						<text>查看</text>
-					</view>
-				</view>
-				<view class="activity_main_list">
-					<view class="main_i_left">
-						<image src="../../images/k_1/fabu.png"></image>
-					</view>
-					<view class="main_i_right">
-						<view>为灾区人民募资捐款</view>
-						<view>地点：某某广场</view>
-						<view>时间：2019年2月3日</view>
+						<view>{{item.flagList[0]}}</view>
+						<view>地点：{{item.address}}</view>
+						<view>时间：{{item.createDate}}</view>
 						<view>组织者：志愿者协会</view>
 					</view>
 					<view class="look">

@@ -1,0 +1,15 @@
+<view class="new_activity">
+  <view class="new_main">
+  <view class="new_main_n">
+    <view class="new_main_name">输入活动名称</view>
+  </view>
+    <view class="new_main_name_time">
+      <text class="nmnt_text">活动时间</text>
+      <input class="new_main_name_input" type="text"></input>
+    </view>
+    <view class="new_main_name_hour">
+      <text class="nmnt_text">活动时长</text>
+      <input type="text" class="new_main_name_input"></input>
+    </view>
+  </view>
+</view>

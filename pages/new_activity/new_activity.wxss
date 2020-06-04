@@ -1,0 +1,47 @@
+.new_activity {
+  padding: 50rpx 35rpx;
+  background: #ECEEF1;
+}
+
+.new_main {
+  background: #fff;
+  height: 300rpx;
+  padding: 20rpx 30rpx;
+}
+
+.new_main_n {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.new_main_name {
+  width: 255rpx;
+  border-bottom: 5rpx solid #ECEEF1;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 33rpx;
+  margin-bottom: 10rpx;
+}
+
+.new_main_name_time,
+.new_main_name_hour {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25rpx;
+  font-size: 29rpx;
+}
+
+.new_main_name_input,
+.new_main_name_input {
+  width: 438rpx;
+  background: #ECEEF1;
+  height: 76rpx;
+  border-radius: 16rpx;
+}
+
+.nmnt_text {
+  line-height: 79rpx;
+}
+
+.new_main_name_hour {}

@@ -19,7 +19,7 @@ Page({
    */
   onLoad: function (options) {
     res.SEND('website/canjiaList','GET',{},(res)=>{
-      console.log(res)
+      // console.log(res)
     })
   },
 
@@ -38,6 +38,12 @@ Page({
   click(){
     wx.navigateTo({
       url: '../haa_look/haa_look',
+    })
+  },
+  // 活动招募跳转
+  h_jump(){
+    wx.navigateTo({
+      url: '../new_activity/new_activity',
     })
   }
 })

@@ -1,9 +1,10 @@
 {
   "pages":[
     "pages/index1/index1",
+    "pages/new_activity/new_activity",
+    "pages/activity/activity",
     "pages/index/index",
     "pages/haa_look/haa_look",
-    "pages/activity/activity",
     "pages/activity_consultation/activity_consultation",
     "pages/personal/personal",
     "pages/identity/identity",
