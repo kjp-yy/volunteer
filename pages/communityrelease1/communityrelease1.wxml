@@ -1,9 +1,0 @@
-<!--pages/communityrelease1/communityrelease1.wxml-->
-<view class="box">
- <view class="header">
-  <view class="huodong">
-   <text class="text-huodong">活动时间</text>
-   <input class="input-huodong" auto-focus placeholder=""/>
-  </view>
- </view>
-</view>

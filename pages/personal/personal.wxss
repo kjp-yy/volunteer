@@ -1,4 +1,69 @@
 .box {
+  position: relative;
+}
+.headerr-image {
+  width: 100%;
+}
+.touxiang {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 35rpx;
+  left: 270rpx;
+}
+.touxiang-image {
+  width: 200rpx;
+  height:200rpx ;
+  border-radius: 50%;
+}
+.wdhd {
+  margin-left:60rpx
+  ;
+}
+.tu {
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.tu-1 {
+  width: 160rpx;
+  height: 180rpx;
+  text-align: center;
+
+}
+.tu-image {
+  width: 70rpx;
+  height: 80rpx;
+  display: flex;
+ 
+  margin: 0 auto;
+}
+.text-tu-1 {
+  font-size: 30rpx;
+}
+.buttomm-1 {
+  line-height: 100rpx;
+  height: 100rpx;
+  border-top: 1rpx solid #efeff0 ;
+}
+.buttomm-2 {
+  line-height: 100rpx;
+  height: 100rpx;
+  border-top: 10rpx solid #efeff0 ;
+}
+.text-1 {
+  margin-left: 60rpx;
+  font-size: 32rpx;
+}
+.text-2 {
+  margin-left: 450rpx;
+}
+.text-3 {
+  margin-left: 60rpx;
+}
+/* .box {
   width: 100%;
   height: 100%;
   position: relative;
@@ -30,8 +95,8 @@
   border-radius: 50%;
 }
 
-/* 活动 */
-.center {
+/* 活动 
+ .center {
   width: 100%;
 }
 
@@ -66,7 +131,7 @@
   width: 80rpx;
   height: 70rpx;
 }
-/* 底部 */
+/* 底部 
 .buttom {
   width: 100%;
   position: absolute;
@@ -100,4 +165,6 @@
  }
  .texxt {
    margin-left: 50rpx;
- }
+ }  
+ 
+ 
