@@ -1,3 +1,58 @@
-<navigator url="../identity/identity">选择页面</navigator>
-<navigator url="../personaldata/personaldata">客户注册</navigator>
-<navigator url="../communityrelease1/communityrelease1">社团团长发布1</navigator>
+ <view class="box">
+ 	<view class="header">
+ 		<view class="header-1" style="background:url('../../images/m_1/toutou.jpg')"></view>
+ 		<view class="touxiang">
+ 			<image class="touxiang-img" src="../../images/m_1/touxiang2.jpg"></image>
+ 		</view>
+ 		<view class="center">
+ 			<view class="huodong">
+ 				<text class="huodong-1">我的活动</text>
+ 				<view class="huodong-tu">
+ 					<view class="tu-1">
+ 						<image class="baoming" src="../../images/m_1/ybm.png"></image>
+ 						<text class="text-baoming">已报名</text>
+ 					</view>
+ 					<view class="tu-1">
+ 						<image class="baoming" src="../../images/m_1/ycj.png"></image>
+ 						<text class="text-baoming">已参加</text>
+ 					</view>
+ 					<view class="tu-1">
+ 						<image class="baoming" src="../../images/m_1/ywc.png"></image>
+ 						<text class="text-baoming">已完成</text>
+ 					</view>
+
+ 				</view>
+ 			</view>
+ 		</view>
+ 	</view>
+ 	<view class="buttom">
+ 		<view class="buttom-1">
+ 			<text class="text-left">我的资料</text>
+ 			<text class="text-right">></text>
+ 		</view>
+ 		<view class="buttom-1">
+ 			<text class="text-left">政策法规</text>
+ 			<text class="text-right">></text>
+ 		</view>
+ 		<view class="buttom-1">
+ 			<text class="text-left">查看时间</text>
+ 			<text class="text-right">></text>
+ 		</view>
+ 		<view class="buttom-1">
+ 			<text class="text-left">社团合作</text>
+ 			<text class="text-right">></text>
+ 		</view>
+ 		<view class="buttom-2">
+ 			<text class="text-left">意见反馈</text>
+ 			<text class="text-right">></text>
+
+ 		</view>
+ 		<view class="buttom-3">
+ 			<text class="text-left">更<text class="texxt"></text>多</text>
+ 			<text class="text-right">></text>
+
+ 		</view>
+ 	</view>
+
+
+ </view>
