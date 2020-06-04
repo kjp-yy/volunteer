@@ -1,2 +1,57 @@
-<!--pages/personaldata/personaldata.wxml-->
-<text>pages/personaldata/personaldata.wxml</text>
+<view class="box">
+  <view class="touxinag">
+       <view class="touxiang-1">
+        <image src="../../images/m_1/touxiang2.jpg" class="touxinag-img"></image>
+       </view>
+       <text class="nickname">昵称</text> 
+  </view>
+  <view class="center">
+   <view class="xingming">
+   <text class="xingming-1">姓<text class="xingming-2"></text>名:</text>
+    <input class="xingming-input" auto-focus placeholder="请输入姓名>"/>
+   </view>
+    <view class="xingming">
+   <text class="xingming-1">年<text class="xingming-2"></text>龄:</text>
+    <input class="xingming-input" auto-focus placeholder="请输入昵称>"/>
+   </view>
+    <view class="xingming">
+   <text class="xingming-1">性<text class="xingming-2"></text>别:</text>
+    <input class="xingming-input" auto-focus placeholder="男/女>"/>
+   </view>
+    <view class="xingming">
+   <text class="xingming-1">身份证号:</text>
+    <input class="xingming-input" auto-focus placeholder="请输入身份证>"/>
+   </view>
+    <view class="xingming">
+   <text class="xingming-1">学<text class="xingming-2"></text>校:</text>
+    <input class="xingming-input" auto-focus placeholder="请输入大学名称>"/>
+   </view>
+    <view class="xingming">
+   <text class="xingming-1">专<text class="xingming-2"></text>业:</text>
+    <input class="xingming-input" auto-focus placeholder="请输入所在专业>"/>
+   </view>
+    <view class="xingming">
+   <text class="xingming-1">学<text class="xingming-2"></text>号:</text>
+    <input class="xingming-input" auto-focus placeholder="请输入学号>"/>
+   </view>
+    <view class="xingming">
+   <text class="xingming-1">参与社团:</text>
+    <input class="xingming-input" auto-focus placeholder="请输入社团名称>"/>
+   </view>
+    <view class="xingming">
+   <text class="xingming-1">联系电话:</text>
+    <input class="xingming-input" auto-focus placeholder="请输入联系方式>"/>
+   </view>
+   
+  
+   <view class="buttom">
+    <view class="tijiao">
+    <text class="text-tijiao">点击确认</text>
+   </view>
+      <label class="checkbox">
+        <checkbox value="cb" checked="true" style="zoom:50%"/>我已阅读并选中
+      </label>
+      <text class="text-buttom">《用户服务协议》</text>
+   </view>
+  </view>
+</view>

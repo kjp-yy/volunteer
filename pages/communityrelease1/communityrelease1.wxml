@@ -1,0 +1,7 @@
+<!--pages/communityrelease1/communityrelease1.wxml-->
+<view class="box">
+<view class="start">
+     <image src="../../images/m_1/xiaoyuhao.png" class="xiaoyuhao"></image>
+     <text class="text-start">创建活动</text>
+	</view>
+</view>
