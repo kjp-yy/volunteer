@@ -2,7 +2,9 @@
   "pages":[
     "pages/index1/index1",
     "pages/index/index",
+    "pages/haa_look/haa_look",
     "pages/activity/activity",
+    "pages/activity_consultation/activity_consultation",
     "pages/personal/personal",
     "pages/identity/identity",
     "pages/personaldata/personaldata",

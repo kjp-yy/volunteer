@@ -8,3 +8,94 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+/* 参加活动main */
+.activity_main {
+  padding: 10rpx 35rpx;
+}
+.activity_main_list {
+  height: 300rpx;
+  background-color: #fff;
+  display: flex;
+  padding-left: 30rpx;
+  align-items: center;
+  border-radius: 44rpx;
+  position: relative;
+  margin-bottom: 35rpx;
+  box-shadow: 0 0 40rpx 10rpx #D4D5D9;
+}
+.main_i_left {
+  padding-right: 25rpx;
+}
+.main_i_left > image {
+  width: 170rpx;
+height: 170rpx;
+  border-radius: 20rpx;
+}
+.main_i_right {
+  width: 380rpx;
+height: 200rpx;
+font-size: 14px;
+}
+.main_i_right > view {
+  font-size: 28rpx;
+  line-height: 43rpx;
+}
+.main_i_right :first-child{
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+.look {
+  position: absolute;
+  width: 148rpx;
+  background-color: #fff;
+  text-align: center;
+  font-size: 30rpx;
+  color: #f54752;
+  border-radius: 50rpx;
+  top: 179rpx;
+  right: 50rpx;
+  border: 1rpx solid #f54752;
+}
+.look:hover {
+  color: #fff;
+  background-color: #f54752;
+}
+/* 正在发布样式 */
+.wrap {
+  background-color: #F4F6FA;
+  width: 100%;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header>image {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+}
+/* 正在参与 */
+.now_join {
+  padding: 5rpx 38rpx;
+}
+.now_join_head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 21rpx 60rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  font-weight: 700;
+}
+/* .now_join_head:first-child {
+  color: #D62B31;
+} */
+.now_join_head>text:hover {
+  color: #D62B31;
+}
+.now_join_main_img>image {
+  width: 100%;
+  height: 10rpx;
+}

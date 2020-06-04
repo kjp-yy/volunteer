@@ -1,4 +1,4 @@
-let apiurl = "http://192.168.1.118:8080/"
+let apiurl = "http://192.168.1.118:8080/volunteer/"
 function SEND(url,method,data,success){
   wx.request({
     url: apiurl+url,
