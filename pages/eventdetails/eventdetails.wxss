@@ -1,0 +1,212 @@
+.headerr {
+  width: 90%;
+  height: 400rpx;
+  margin: 0 auto;
+
+}
+
+.headerr-image {
+  width: 100%;
+  height: 400rpx;
+  border-radius: 15rpx;
+}
+
+.aixin {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20rpx;
+}
+
+.text-aixin-1 {
+  display: flex;
+  font-size: 50rpx;
+  line-height: 60rpx;
+  color: #4d3f41;
+}
+
+.text-aixin-2 {
+  display: flex;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  color: #685659;
+}
+
+.text-aixin-3 {
+  display: flex;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  color: #afa0a0;
+}
+.hdts {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50rpx;
+  display: flex;
+}
+.hdts-hg {
+  width: 7rpx;
+  height: 80rpx;
+  background-color: #d62b31;
+}
+.text-hdts {
+  margin-left: 10prx;
+  font-size: 35rpx;
+  color: #dc585b;
+  line-height: 80rpx;
+  margin-left: 30rpx;
+}
+.hdts-xian {
+  width: 460rpx;
+  height: 5rpx;
+  background-color: #d1d2d4;
+  margin-top: 40rpx;
+  margin-left: 30rpx;
+}
+.zp {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 40rpx;
+}
+.nlbx {
+  width: 150rpx;
+  height: 50rpx;
+  border: 1rpx solid #22bf8d;
+  border-radius: 15rpx;
+  font-size: 30rpx;
+  color: #22bf8d;
+  text-align: center;
+  margin-left: 30rpx;
+  line-height: 55rpx;
+}
+.zr {
+  width: 120rpx;
+  height: 50rpx;
+  border: 1rpx solid #4799f5;
+  border-radius: 15rpx;
+  font-size: 30rpx;
+  color: #4799f5;
+  text-align: center;
+  margin-left: 30rpx;
+  line-height: 55rpx;
+}
+.nvbx {
+  width: 150rpx;
+  height: 50rpx;
+  border: 1rpx solid #00b504;
+  border-radius: 15rpx;
+  font-size: 30rpx;
+  color: #00b504;
+  text-align: center;
+  line-height: 55rpx;
+  margin-left: 30rpx;
+}
+.phzyz {
+  width: 90%;
+  margin: 0 auto;
+}
+.phzyz-1 {
+    font-size:30rpx;
+    display: flex;
+    color: #333333;
+    margin-bottom: 30rpx;
+}
+.phzyz-2 {
+  font-size: 28rpx;
+  display: flex;
+  color: #8c8c8c;
+}
+.phzyz-3 {
+  font-size: 28rpx;
+  display: flex;
+  color: #8c8c8c;
+}
+.phzyz-4 {
+  font-size: 28rpx;
+  display: flex;
+  color: #8c8c8c;
+}
+
+.sj {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 30rpx;
+}
+.ksjs-1 {
+  display: flex;
+  line-height: 120rpx;
+}
+.shijian {
+  width: 10%;
+  margin-top: 27rpx;
+}
+.shijian-image {
+  width: 100%;
+  height: 180rpx;
+}
+.riqi {
+  width: 60%;
+}
+.text-riqi-1{
+  display: flex;
+  line-height: 120rpx;
+  font-size: 30rpx;
+  margin-left: 30rpx;
+}
+.text-riqi-2 {
+  margin-left: 40rpx;
+}
+.ditu {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  border: 1rpx solid #22bf8d;
+}
+.xinxi {
+  width: 90%;
+  height: 200rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  background-color: #f4f6fa;
+  border-radius: 15rpx;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.touxiang {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.touxiang-image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.lianxiren {
+  margin-left: 30rpx;
+}
+.lianxiren-1 {
+  display: flex;
+  font-size: 30rpx;
+  line-height: rpx;
+}
+.jiantou {
+  margin-left: 100rpx;
+}
+.buttom {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100rpx;
+}
+#button-1 {
+  width:100%;
+  background-color: #f7727b;
+  color: #ffffff;
+  border-radius: 50rpx;
+  font-size: 40rpx;
+}
+
+
+

@@ -1,0 +1,79 @@
+ <view class="box">
+ <view class="headerr">
+  <image src="../../images/m_1/hdxq.png" class="headerr-image"></image>
+ </view>
+ <view class="aixin">
+  <text class="text-aixin-1">爱心志愿者招募进行时</text>
+   <text class="text-aixin-2">Grand opening poly benefit the whole city</text>
+    <text class="text-aixin-3">活动时间：2020-3-30至2020-4-15</text>
+ </view>
+ <view class="hdts">
+   <view class="hdts-hg"></view>
+   <text class="text-hdts">活动特色</text>
+   <view class="hdts-xian"></view>
+ </view>
+ <view class="zp">
+    <view class="nlbx">年龄不限</view>
+    <view class="zr">招30人</view>
+    <view class="nvbx">男女不限</view>
+ </view>
+  <view class="hdts">
+   <view class="hdts-hg"></view>
+   <text class="text-hdts">活动内容</text>
+   <view class="hdts-xian"></view>
+ </view>
+ <view class="phzyz">
+    <text class="phzyz-1">
+    配合志愿者协会进行献爱心。具体内容如下：
+    </text>
+    <text class="phzyz-2">一，根据困难群体的实体需求，对困难家庭中因危重病，突发性事件造成生活个人行困难家庭（个人），个人是患重大疾病的少年儿童以及本事低保和低收入家庭中的老年人，学生，残疾人给与帮助</text>
+    <text class="phzyz-3">二，弘扬慈善精神，宣传慈善理念，营造奉献，友爱，互助，进步的慈善气氛，增加社会凝聚里和向心力，促进社会稳定和谐</text>
+    <text class="phzyz-4">三，激发全社会尤其是企业关注弱势群体，关注困难群众的热情，唤起捐款者和捐赠者的社会职责感，透过宣传社会善心义举，鼓励跟多企业用心参与慈善公益活动</text>
+ </view>
+  <view class="hdts">
+   <view class="hdts-hg"></view>
+   <text class="text-hdts">活动时间</text>
+   <view class="hdts-xian"></view>
+ </view>
+ <view class="sj">
+   <view class="ksjs">
+    <text class="ksjs-1">开始时间：</text>
+     <text class="ksjs-1">结束时间：</text>
+   </view>
+   <view class="shijian">
+   <image src="../../images/m_1/hdsj.png" class="shijian-image"></image>
+   </view>
+   <view class="riqi">
+    <text class="text-riqi-1">2020-3-30 <text class="text-riqi-2"></text> (12:00-15:00)</text>
+     <text class="text-riqi-1">2020-3-30<text class="text-riqi-2"></text>  (12:00-15:00)</text>
+   </view>
+ </view>
+  <view class="hdts">
+   <view class="hdts-hg"></view>
+   <text class="text-hdts">活动时间</text>
+   <view class="hdts-xian"></view>
+ </view>
+ <view class="ditu">
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="14"  markers="{{markers}}" show-location style="width: 100%; height: 300rpx;"></map>
+ </view>
+  <view class="hdts">
+   <view class="hdts-hg"></view>
+   <text class="text-hdts">活动时间</text>
+   <view class="hdts-xian"></view>
+ </view>
+ <view class="xinxi">
+  <view class="touxiang">
+   <image src="../../images/m_1/hdsj.png" class="touxiang-image"></image>
+  </view>
+  <view class="lianxiren">
+  <text class="lianxiren-1">联系人：韩先生</text>
+  <text class="lianxiren-1">联系电话：13679198278</text>
+  </view>
+  <view class="jiantou">></view>
+ </view>
+ <view class="buttom">
+ <button id="button-1" >我要报名</button>
+
+ </view>
+ 
+</view>

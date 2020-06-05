@@ -11,3 +11,12 @@
   width: 100%;
   height: 100%;
 }
+.buttom {
+  text-align: center;
+  background-color: #fa586b;
+  color: #ffffff;
+}
+.text-buttom {
+  line-height: 100rpx;
+  
+}

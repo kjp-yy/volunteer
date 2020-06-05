@@ -10,6 +10,7 @@
     "pages/identity/identity",
     "pages/personaldata/personaldata",
     "pages/regulations/regulations",
+    "pages/eventdetails/eventdetails",
     "pages/logs/logs",
     "pages/logx/logx"
   ],
