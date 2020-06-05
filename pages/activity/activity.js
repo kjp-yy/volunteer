@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    // 定义一个dataid赋给详情页
     id:0,
     datalist:[]
   },
@@ -25,8 +26,17 @@ Page({
     let id=n
     res.SEND('website/huodongList','GET',{status:id},res=>{
       this.setData({
-        datalist: res.data.data.list
+        datalist: res.data.data.list,
       })
+    })
+  },
+  // 跳转到详情
+  detail_jump(e){
+    let id=e.currentTarget.dataset.id
+    // 调用一次接口为了获取id
+    // 跳转到页面
+    wx.navigateTo({
+      url: '../eventdetails/eventdetails?id='+id,
     })
   }
 })

@@ -1,5 +1,7 @@
+let res=require('../api.js')
 Page({
   data: {
+    datalist:{},
     latitude:'',
     longitude: '',
     markers:[{
@@ -13,21 +15,19 @@ Page({
     ]
 },
 
-onLoad (){
-  wx.request({
-    url: 'https://www.wumeili.top/w/website/bannerList',
-    data:{},
-    method:"GET",
-    success:res=>{
-      console.log(res);
-      this.setData({
-        bannerlist:res.data.data
-      }) 
-    }
+onLoad (options){
+  // 获取到传过来的id
+  // 获取对应id的数据
+  res.SEND('website/huodong','GET',{id:options.id},res=>{
+    console.log(res.data)
+    this.setData({
+      datalist:res.data.data
+    })
   })
+  // 获取地图位置
   wx.getLocation({
     success:rus=> {
-      console.log(rus);
+      // console.log(rus);
       this.setData({
         latitude:rus.latitude,
         longitude:rus.longitude,
