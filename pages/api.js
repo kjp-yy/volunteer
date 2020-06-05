@@ -1,3 +1,4 @@
+// 封装获取接口的方法
 let apiurl = "http://192.168.1.118:8080/volunteer/"
 function SEND(url,method,data,success){
   wx.request({
@@ -10,6 +11,7 @@ function SEND(url,method,data,success){
     success:success
   })
 }
+// 暴露接口
 module.exports={
-  SEND:SEND
+  SEND:SEND,
 }
