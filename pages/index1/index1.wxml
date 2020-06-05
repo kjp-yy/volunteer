@@ -14,7 +14,7 @@
 	</view>
 	<!-- nav -->
 	<view class="nav">
-		<view class="nav_list">
+		<view class="nav_list"  bindtap="click">
 			<view class="nav_list1">
 				<image src="../../images/k_1/personal.png"></image>
 			</view>
@@ -40,7 +40,7 @@
 				<image src="../../images/k_1/jr.png"></image>
 				<text>参与活动</text>
 			</view>
-			<view class="header_right" bindtap="click">
+			<view class="header_right">
 				<text>查看更多</text>
 				<image src="../../images/k_1/right.png"></image>
 			</view>
