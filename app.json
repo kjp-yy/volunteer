@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index1/index1",
+    "pages/add_name/add_name",
     "pages/new_activity/new_activity",
     "pages/activity/activity",
     "pages/index/index",

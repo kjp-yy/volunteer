@@ -1,3 +1,6 @@
+page {
+  background-color: #ECEEF1;
+}
 .new_activity {
   padding: 50rpx 35rpx;
   background: #ECEEF1;
@@ -54,7 +57,8 @@
 .sex-info-radio {
   transform: scale(0.8);
 }
-.sex-info-radio :first-child{
+
+.sex-info-radio :first-child {
   font-size: 34rpx;
 }
 
@@ -105,6 +109,7 @@
   width: 100%;
   height: 100%;
 }
+
 /* 活动图片 */
 .new_activity_pic {
   width: 180rpx;
@@ -115,11 +120,25 @@
   background-color: #ECEEF1;
   border-radius: 20rpx;
 }
+
 .new_activity_pic :nth-child(1) {
   width: 120rpx;
   height: 120rpx;
 }
+
 .new_activity_pic :nth-child(2) {
- font-size: 30rpx;
- color: #C2C2C2;
+  font-size: 30rpx;
+  color: #C2C2C2;
+}
+
+/* 提交 */
+.ok_main {
+  margin-top: 80rpx;
+}
+#ok_btn {
+  color: #fff;
+  width: 94%;
+  border-radius: 30rpx;
+  font-size: 36rpx;
+  background-color: #F54752;
 }

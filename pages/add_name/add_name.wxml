@@ -1,9 +1,6 @@
 <view class="new_activity">
 	<form>
 		<view class="new_main">
-			<view class="new_main_n">
-				<view class="new_main_name">输入活动名称</view>
-			</view>
 			<view class="new_main_name_time">
 				<text class="nmnt_text">活动时间</text>
 				<input class="new_main_name_input" type="text"></input>
@@ -17,25 +14,13 @@
 				<radio-group class="radio-group">
 					<radio class="sex-info-radio" checked><text>男</text></radio>
 					<radio class="sex-info-radio"><text>女</text></radio>
-					<radio class="sex-info-radio"><text>不限</text></radio>
 				</radio-group>
-			</view>
-			<view class="new_main_name_time">
-				<text class="nmnt_text">需求人数</text>
-				<input class="new_main_name_input" type="text"></input>
 			</view>
 			<view class="new_main_name_hour">
 				<text class="nmnt_text nmnt_add">地址</text>
 				<input type="text" class="new_main_name_input" id="text_add">
 				<image class="text_add_img" src="../../images/k_1/position.png"></image>
 				</input>
-			</view>
-		</view>
-		<!-- 活动介绍 -->
-		<view class="new_center">
-			<view class="new_center_top">活动介绍</view>
-			<view class="new_center_center">
-				<textarea class="new_center_textarea" placeholder="请输入活动内容" placeholder-style="font-size:30rpx;color:#D0D0D0"></textarea>
 			</view>
 		</view>
 		<!-- 活动图片 -->
@@ -46,6 +31,9 @@
 				<text>活动图片</text>
 			</view>
 		</view>
+    <!--提交 -->
+    <view class="ok_main">
+      <button id="ok_btn" type="warn">确认提交</button>
+    </view>
 	</form>
-
 </view>
