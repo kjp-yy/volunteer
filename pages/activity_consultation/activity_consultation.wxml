@@ -1,12 +1,50 @@
 <view class="activity_consultation">
-	<view class="ac_main">
+	<view class="ac_main" wx:for="{{datalist}}">
+		<view class="ac_main_top">
+			<view class="ac_main_top_img">
+				<image src="https://cishan.xabcx.cn{{item.imgList[0]}}"></image>
+			</view>
+			<view class="ac_main_top_view">
+				<view>{{item.title}}</view>
+				<view>{{item.address}}</view>
+			</view>
+		</view>
+		<view class="ac_main_center">
+			<rich-text class="ac_main_center_one" nodes="{{item.content}}"></rich-text>
+			<view>{{item.date}}</view>
+		</view>
+		<view class="ac_main_bottom">
+			<image src="../../images/k_1/djjr.png"></image>
+		</view>
+	</view>
+
+	<view class="ac_main" wx:for="{{dataList}}">
+		<view class="ac_main_top">
+			<view class="ac_main_top_img">
+				<image src="https://cishan.xabcx.cn{{item.activity.imgList[0]}}"></image>
+			</view>
+			<view class="ac_main_top_view">
+				<view>{{item.sex}}</view>
+				<view>{{item.activity.address}}</view>
+				
+			</view>
+		</view>
+		<view class="ac_main_center">
+			<rich-text class="ac_main_center_one" nodes="{{item.id}}"></rich-text>
+			<view>{{item.updateDate}}</view>
+		</view>
+		<view class="ac_main_bottom">
+			<image src="../../images/k_1/djjr.png"></image>
+		</view>
+	</view>
+<!--	<view class="ac_main">
 		<view class="ac_main_top">
 			<view class="ac_main_top_img">
 				<image src="../../images/k_1/touxiang2.jpg"></image>
 			</view>
 			<view class="ac_main_top_view">
-      <view>帮助孤寡老人</view>
-			<view>救济帮扶组织</view>
+				<view>帮助孤寡老人</view>
+				<view>救济帮扶组织</view>
 			</view>
 		</view>
 		<view class="ac_main_center">
@@ -16,41 +54,5 @@
 		<view class="ac_main_bottom">
 			<image src="../../images/k_1/djjr.png"></image>
 		</view>
-	</view>
-	<view class="ac_main">
-		<view class="ac_main_top">
-			<view class="ac_main_top_img">
-				<image src="../../images/k_1/touxiang2.jpg"></image>
-			</view>
-			<view class="ac_main_top_view">
-      <view>帮助孤寡老人</view>
-			<view>救济帮扶组织</view>
-			</view>
-		</view>
-		<view class="ac_main_center">
-			<text class="ac_main_center_one"> 献上爱心是你我永恒的动力，热爱生活，努力工作，为了更多需要帮助的人贡献我们的一份力量</text>
-			<view>45分钟前</view>
-		</view>
-		<view class="ac_main_bottom">
-			<image src="../../images/k_1/djjr.png"></image>
-		</view>
-	</view>
-	<view class="ac_main">
-		<view class="ac_main_top">
-			<view class="ac_main_top_img">
-				<image src="../../images/k_1/touxiang2.jpg"></image>
-			</view>
-			<view class="ac_main_top_view">
-      <view>帮助孤寡老人</view>
-			<view>救济帮扶组织</view>
-			</view>
-		</view>
-		<view class="ac_main_center">
-			<text class="ac_main_center_one"> 献上爱心是你我永恒的动力，热爱生活，努力工作，为了更多需要帮助的人贡献我们的一份力量</text>
-			<view>45分钟前</view>
-		</view>
-		<view class="ac_main_bottom">
-			<image src="../../images/k_1/djjr.png"></image>
-		</view>
-	</view>
-</view>
+	</view>-->
+</view> 

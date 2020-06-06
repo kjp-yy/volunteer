@@ -1,18 +1,31 @@
 // pages/activity_consultation/activity_consultation.js
+let res = require('../api')
+let res1 = require('../api')
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-
+    datalist:[],
+    dataList:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-
+  onLoad: function () {
+     res.SEND('/website/huodongList','GET',{status:0,type:1},res=> {
+       console.log(res)
+       this.setData({
+        datalist:res.data.data.list
+       })
+     })
+     res1.SEND('/website/wanchengList','GET',{openId:'oiUyR4iykJCuGJOFg6t2IgGN0_xA',type:1,type1:1},res1=> {
+       console.log(res1)
+       this.setData({
+        dataList:res1.data.data.list
+       })
+     })
   },
 
   /**
