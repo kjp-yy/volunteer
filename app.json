@@ -1,9 +1,9 @@
 {
   "pages":[
-    "pages/personal/personal",
-    "pages/activity/activity",
     "pages/index1/index1",
     "pages/haa_look/haa_look",
+    "pages/personal/personal",
+    "pages/activity/activity",
     "pages/add_name/add_name",
     "pages/new_activity/new_activity",
     "pages/index/index",

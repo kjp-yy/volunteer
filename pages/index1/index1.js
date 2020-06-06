@@ -51,7 +51,7 @@ Page({
   // 查看更多
   click(){
     wx.navigateTo({
-      url: '../activity/activity',
+      url: '../haa_look/haa_look',
     })
   },
   // 活动招募跳转
