@@ -5,6 +5,7 @@
     "pages/activity/activity",
     "pages/index1/index1",
     "pages/haa_look/haa_look",
+    "pages/haa_lookyy/haa_lookyy",
     "pages/add_name/add_name",
     "pages/new_activity/new_activity",
     "pages/index/index",
@@ -13,6 +14,7 @@
     "pages/regulations/regulations",
     "pages/eventdetails/eventdetails",
     "pages/logs/logs",
+    
     "pages/logx/logx"
   ],
   "window":{
