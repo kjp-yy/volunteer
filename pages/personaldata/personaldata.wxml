@@ -1,9 +1,9 @@
 <view class="box">
 	<view class="touxinag">
 		<view class="touxiang-1">
-			<image src="../../images/m_1/touxiang2.jpg" class="touxinag-img"></image>
+			<image src="{{userInfo.avatarUrl}}" class="touxinag-img"></image>
 		</view>
-		<text class="nickname">昵称</text>
+		<text class="nickname">{{userInfo.nickName}}</text>
 	</view>
 	<view class="center">
 		<view class="xingming">

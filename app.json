@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/personaldata/personaldata",
     "pages/personal/personal",
     "pages/activity/activity",
     "pages/index1/index1",
@@ -9,7 +10,6 @@
     "pages/index/index",
     "pages/activity_consultation/activity_consultation",
     "pages/identity/identity",
-    "pages/personaldata/personaldata",
     "pages/regulations/regulations",
     "pages/eventdetails/eventdetails",
     "pages/logs/logs",

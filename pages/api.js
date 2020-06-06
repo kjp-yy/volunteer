@@ -21,6 +21,7 @@ function SEND(url,method,data,success){
       url: '../eventdetails/eventdetails?id='+e,
     })
   }
+  // 
 // 暴露接口
 module.exports={
   SEND:SEND,
