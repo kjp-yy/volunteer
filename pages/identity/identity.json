@@ -1,6 +1,6 @@
 {
   "navigationBarBackgroundColor": "#f08e91",
-  "navigationBarTitleText": "",
+  "navigationBarTitleText": "返回",
   "navigationStyle":"custom",
   "usingComponents": {}
 }

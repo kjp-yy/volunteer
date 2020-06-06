@@ -30,13 +30,9 @@ Page({
       })
     })
   },
-  // 跳转到详情
   detail_jump(e){
-    let id=e.currentTarget.dataset.id
-    // 调用一次接口为了获取id
-    // 跳转到页面
-    wx.navigateTo({
-      url: '../eventdetails/eventdetails?id='+id,
-    })
+    console.log(e)
+    res.del(e.currentTarget.dataset.id)
   }
+
 })
