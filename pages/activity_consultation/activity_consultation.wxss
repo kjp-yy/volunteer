@@ -17,7 +17,6 @@
 
 }
 
-.ac_main_top_img {}
 
 .ac_main_top_img>image {
   width: 120rpx;
@@ -42,7 +41,7 @@
   color: #999999;
 }
 
-.ac_main_center {}
+
 
 .ac_main_center_one {
   font-size: 26rpx;

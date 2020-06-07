@@ -1,7 +1,6 @@
 // pages/activity_consultation/activity_consultation.js
 let res=require('../api.js')
 Page({
-
   /**
    * 页面的初始数据
    */

@@ -10,8 +10,8 @@
 		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
-		"coverView": true,
 		"autoAudits": false,
+		"coverView": true,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": true,
 		"checkInvalidKey": true,
@@ -27,8 +27,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.1",
-	"appid": "wx81415eb50320b094",
-	"projectname": "weChat_protect",
+	"appid": "wx14d9ffdbc3766a3e",
+	"projectname": "volunteer",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
