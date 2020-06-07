@@ -48,10 +48,10 @@ Page({
   onShareAppMessage: function () {
 
   },
-  // 查看更多
+  // 我的活动
   click(){
     wx.navigateTo({
-      url: '../activity/activity',
+      url: '../activity_consultation/activity_consultation',
     })
   },
   // 活动招募跳转

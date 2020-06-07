@@ -1,15 +1,14 @@
 {
   "pages":[
+    "pages/index1/index1",
+    "pages/activity_consultation/activity_consultation",
+    "pages/haa_look/haa_look",
     "pages/personaldata/personaldata",
     "pages/personal/personal",
     "pages/activity/activity",
-    "pages/index1/index1",
-    "pages/haa_look/haa_look",
-    "pages/haa_lookyy/haa_lookyy",
     "pages/add_name/add_name",
     "pages/new_activity/new_activity",
     "pages/index/index",
-    "pages/activity_consultation/activity_consultation",
     "pages/identity/identity",
     "pages/regulations/regulations",
     "pages/eventdetails/eventdetails",
@@ -44,7 +43,7 @@
       "selectedIconPath": "./images/m_1/geren-1.png"
     },
     {
-      "pagePath":"pages/logx/logx",
+      "pagePath":"pages/identity/identity",
       "text":"个人",
       "iconPath": "./images/m_1/geren.png",
       "selectedIconPath": "./images/m_1/geren-1.png"

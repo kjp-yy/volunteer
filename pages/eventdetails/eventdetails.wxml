@@ -1,11 +1,5 @@
  <view class="box">
- 	<view class="headerr">
- 		<image src="../../images/m_1/hdxq.png" class="headerr-image"></image>
- 	</view>
  	<view class="aixin">
- 		<text class="text-aixin-1">爱心志愿者招募进行时</text>
- 		<text class="text-aixin-2">Grand opening poly benefit the whole city</text>
- 		<text class="text-aixin-3">活动时间：2020-3-30至2020-4-15</text>
  		<image src="https://cishan.xabcx.cn{{datalist.imgList[0]}}" class="headerr-image"></image>
  	</view>
  	<view class="aixin">
@@ -69,8 +63,6 @@
  	</view>
  	<view class="xinxi">
  		<view class="touxiang">
- 			<image src="../../images/m_1/hdsj.png" class="touxiang-image">
- 				</image>
  				<image src="https://cishan.xabcx.cn{{datalist.imgList[0]}}" class="touxiang-image"></image>
  		</view>
  		<view class="lianxiren">
@@ -81,5 +73,7 @@
  	</view>
  	<view class="buttom">
  		<button id="button-1">我要报名</button>
+
  	</view>
+
  </view>

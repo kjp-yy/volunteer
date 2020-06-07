@@ -55,5 +55,16 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  // 跳转到修改资料
+  jump(){
+    wx.navigateTo({
+      url: '../personaldata/personaldata',
+    })
+  },
+  jump_1(){
+    wx.navigateTo({
+      url: '../regulations/regulations',
+    })
   }
 })

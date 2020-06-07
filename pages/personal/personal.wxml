@@ -32,11 +32,11 @@
  		</view>
  	</view>
    <view class="buttomm">
-     <view class="buttomm-1">
+     <view class="buttomm-1" bindtap="jump">
        <text class="text-1">我的资料</text>
        <text class="text-2">></text>
      </view>
-       <view class="buttomm-1">
+       <view class="buttomm-1" bindtap="jump_1">
        <text class="text-1">政策法规</text>
        <text class="text-2">></text>
      </view>

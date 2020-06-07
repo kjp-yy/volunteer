@@ -1,53 +1,36 @@
 <view class="activity_consultation">
-	<view class="ac_main">
+	<view class="ac_main" wx:for="{{datalist1}}" wx:key="index">
 		<view class="ac_main_top">
 			<view class="ac_main_top_img">
-				<image src="../../images/k_1/touxiang2.jpg"></image>
+				<image src="https://cishan.xabcx.cn/{{item.imgList}}"></image>
 			</view>
 			<view class="ac_main_top_view">
-      <view>帮助孤寡老人</view>
-			<view>救济帮扶组织</view>
+      <view>{{item.address}}</view>
+			<view>{{item.bmcount}}</view>
 			</view>
 		</view>
 		<view class="ac_main_center">
-			<text class="ac_main_center_one"> 献上爱心是你我永恒的动力，热爱生活，努力工作，为了更多需要帮助的人贡献我们的一份力量</text>
-			<view>45分钟前</view>
+		<rich-text  nodes="{{item.content}}"><text class="ac_main_center_one"></text></rich-text>
+			<view>{{item.createDate}}</view>
 		</view>
 		<view class="ac_main_bottom">
 			<image src="../../images/k_1/djjr.png"></image>
 		</view>
 	</view>
-	<view class="ac_main">
+
+	<view class="ac_main" wx:for="{{datalist2}}" wx:key="index">
 		<view class="ac_main_top">
 			<view class="ac_main_top_img">
-				<image src="../../images/k_1/touxiang2.jpg"></image>
+				<image src="https://cishan.xabcx.cn/{{item.activity.imgList}}"></image>
 			</view>
 			<view class="ac_main_top_view">
-      <view>帮助孤寡老人</view>
-			<view>救济帮扶组织</view>
+      <view>{{item.name}}</view>
+			<view>{{item.sex}}</view>
 			</view>
 		</view>
 		<view class="ac_main_center">
-			<text class="ac_main_center_one"> 献上爱心是你我永恒的动力，热爱生活，努力工作，为了更多需要帮助的人贡献我们的一份力量</text>
-			<view>45分钟前</view>
-		</view>
-		<view class="ac_main_bottom">
-			<image src="../../images/k_1/djjr.png"></image>
-		</view>
-	</view>
-	<view class="ac_main">
-		<view class="ac_main_top">
-			<view class="ac_main_top_img">
-				<image src="../../images/k_1/touxiang2.jpg"></image>
-			</view>
-			<view class="ac_main_top_view">
-      <view>帮助孤寡老人</view>
-			<view>救济帮扶组织</view>
-			</view>
-		</view>
-		<view class="ac_main_center">
-			<text class="ac_main_center_one"> 献上爱心是你我永恒的动力，热爱生活，努力工作，为了更多需要帮助的人贡献我们的一份力量</text>
-			<view>45分钟前</view>
+			<text class="ac_main_center_one"> {{item.id}}</text>
+			<view>{{item.createDate}}</view>
 		</view>
 		<view class="ac_main_bottom">
 			<image src="../../images/k_1/djjr.png"></image>
